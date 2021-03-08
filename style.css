@@ -1,0 +1,133 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    margin-right:  4vh;
+}
+
+p{
+    color:  hsl(0, 0%, 75%);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    color:  hsl(0, 0%, 75%);
+}
+
+li:hover{
+    background: blue;
+    color: white;
+    padding: 2px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+.form-control{
+    width: 70%;
+}
+
+.icon{
+    border-radius: 60%;
+    background:   hsl(260, 8%, 14%);
+    padding: 16px;
+    position: relative;
+    top: 10%;
+    left: 8px;
+}
+
+.brand{
+    border-radius: 10px;
+    padding: 27px;
+}
+
+.fully{
+    border-radius: 10px;
+    padding: 28px;
+}
+.detailed{
+    border-radius: 10px;
+    padding: 27px;
+}
+
+.row-2{
+    border-radius: 10px;
+}
+.btn-one{
+    border-radius: 10px;
+    background:  hsl(180, 66%, 49%);
+    border: solid 1px hsl(180, 66%, 49%);
+    color: white;
+    font-size: 10px;
+    padding: 4px;
+    width: 70px;
+}
+
+.btn-two{
+    border-radius: 20px;
+    background:  hsl(180, 66%, 49%);
+    border: solid 1px hsl(180, 66%, 49%);
+    color: white;
+    padding: 4px;
+    width: 30%;
+    padding: 7px;
+}
+
+.btn-three{
+    border-radius: 10px;
+    background:  hsl(180, 66%, 49%);
+    border: solid 1px hsl(180, 66%, 49%);
+    color: white;
+    padding: 8px;
+    width: 20%;
+    margin-right: 8%;
+}
+
+.btn-four{
+    border-radius: 10px;
+    background:  hsl(180, 66%, 49%);
+    border: solid 1px hsl(180, 66%, 49%);
+    color: white;
+    padding: 8px;
+    width: 20%;
+}
+
+.navbar-toggler-icon{
+    background: black;
+    border-radius: 20%;
+}
+
+@media(max-width: 768px){
+  .navbar{
+      text-align: center;
+  }
+   .row{
+       text-align: center;
+   }
+  .o{
+      text-align: center;
+      margin-left: 0%;
+  }
+  .li{
+    text-align: center;
+    margin:0 auto; 
+  }
+.btn-three{
+    width: 30%;
+    font-size: 10px;
+}
+.form-control{
+    width: 60%;
+}
+
+.btn-four{
+    width: 100%;
+  }
+
+  footer{
+      text-align: center;
+  }
+}
